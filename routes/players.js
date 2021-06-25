@@ -24,7 +24,7 @@ router.get('/:id', (req, res) => {
 router.post('/', async (req, res) => {
     const player = new Player({
         name:req.body.name,
-        positition: req.body.name,
+        positition: req.body.positition,
         country: req.body.country,
         teamName: req.body.teamName
     }) 

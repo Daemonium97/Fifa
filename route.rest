@@ -3,15 +3,18 @@ GET http://localhost:3000/players
 
 ###
 
-GET https://futdb.app/api/players/Cristiano%20Ronaldo
+GET http://localhost:3000/players/
 
 ###
 
-POST https://www.easports.com/fifa/ultimate-team/api/fut/item
+POST http://localhost:3000/players
 Content-Type: application/json
 
 {
-    "name" : "Dieguiño",
+    "name" : "Kukuy",
+    "positition": "Aguatero",
+    "country": "Islandia",
+    "teamName": "Bulgaria"
     
 }
 

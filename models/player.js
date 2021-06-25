@@ -7,7 +7,7 @@ const playerSchema = new mongoose.Schema({
     },
     positition:{
         type: String,
-        required: true //json info
+        required: true   //json info
     },
     country:{
         type: String,
