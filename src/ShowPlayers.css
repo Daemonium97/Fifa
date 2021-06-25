@@ -1,0 +1,19 @@
+body{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right top, #600846, #5d0450, #57045b, #4d0a67, #3d1273);
+}
+
+#gato{
+    height: auto;
+}
+
+@media only screen and (max-width: 600px){
+    #gato{
+         width: 100%;
+        
+    }
+}
+
